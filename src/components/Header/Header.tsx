@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router';
+import praveenLogo from '../../assets/logo-thunderstorm-96.d1126ac.svg fill.svg';
 import './Header.css';
 
 const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-left">
-        <h1>Praveen Manchi</h1>
+        <Link to='/'>
+      <img src={praveenLogo} alt="Praveen Manchi" />
+      </Link>
       </div>
       <nav className="header-right">
         <ul>
