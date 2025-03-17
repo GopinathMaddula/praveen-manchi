@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #00030A;
-  color: #FFFFFF;
+  background-color: #00030a;
+  color: #ffffff;
   margin: 0px 8px;
-  border-bottom: 2px solid #121E31;
+  border-bottom: 2px solid #121e31;
 }
 
 .header-left h1 {
@@ -23,15 +23,11 @@
 .header-right li {
   margin-left: 20px;
   text-transform: uppercase;
-  
+  position: relative; /* Ensure the modal is positioned correctly */
 }
 
 .header-right a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 50%;
 }
-
-/* .header-right a:hover {
-  text-decoration: underline;
-} */
